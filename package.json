@@ -1,0 +1,16 @@
+{
+  "name": "llama-chat-react",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node start.js",
+    "server": "cd server && node server.js",
+    "app": "cd ChatBotApp && npx expo start",
+    "ollama": "ollama run llama3.1:8b"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.2"
+  }
+}
